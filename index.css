@@ -1,0 +1,62 @@
+
+body{
+background-image: url('1erfondo.jpg');
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: top;
+background-position-x: auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+margin: 10px;
+
+}
+.ini{
+    text-align: left;
+}
+.lov{
+    text-align: center; /* El título permanece centrado */
+    background-color: rgba(1, 1, 199, 0.5);
+    color: black;
+    padding: 0 0 15px 10px;
+    width: 100%;
+    }
+    header {
+        color: white;
+        padding: 20px;
+        text-align: right;
+    }
+    
+
+
+    h1 {
+        color: rgb(130, 68, 118);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-container {
+        max-width: 50%;
+}
+img {
+    display: block;
+    width: 500px; /* Tamaño fijo */
+    height: auto;
+    float: right; /* Alinea la imagen a la derecha */
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 200px; /* Ajuste en pantallas medianas */
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 200px; /* Ajuste en móviles */
+    }
+}
+
